@@ -1,11 +1,11 @@
 <?php
 /**
- * @link https://github.com/yii2tech
+ * @link https://github.com/ar2rsoft
  * @copyright Copyright (c) 2015 Yii2tech
  * @license [New BSD License](http://www.opensource.org/licenses/bsd-license.php)
  */
 
-namespace yii2tech\sitemap;
+namespace ar2rsoft\sitemap;
 
 use CException;
 use CFileHelper;
@@ -20,7 +20,7 @@ use yii\helpers\FileHelper;
  * Example:
  *
  * ```php
- * use yii2tech\sitemap\IndexFile;
+ * use ar2rsoft\sitemap\IndexFile;
  *
  * $siteMapIndexFile = new IndexFile();
  * $siteMapIndexFile->writeUpFromPath('@app/web/sitemap');
@@ -35,7 +35,7 @@ use yii\helpers\FileHelper;
  * @property string $fileBaseUrl base URL for the directory, which contains the site map files.
  * If not set URL to 'sitemap' folder under current web root will be used.
  *
- * @author Paul Klimov <klimov.paul@gmail.com>
+ * @author Artur <ar2rsoft@gmail.com>
  * @since 1.0
  */
 class IndexFile extends BaseFile

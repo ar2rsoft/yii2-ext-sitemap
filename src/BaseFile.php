@@ -1,11 +1,11 @@
 <?php
 /**
- * @link https://github.com/yii2tech
+ * @link https://github.com/ar2rsoft
  * @copyright Copyright (c) 2015 Yii2tech
  * @license [New BSD License](http://www.opensource.org/licenses/bsd-license.php)
  */
 
-namespace yii2tech\sitemap;
+namespace ar2rsoft\sitemap;
 
 use Yii;
 use yii\base\Exception;
@@ -23,7 +23,7 @@ use yii\web\UrlManager;
  * @property bool $isEntriesLimitReached whether the max entries limit is already reached or not.
  * @property UrlManager|array|string $urlManager the URL manager object or the application component ID of the URL manager.
  *
- * @author Paul Klimov <klimov.paul@gmail.com>
+ * @author Artur <ar2rsoft@gmail.com>
  * @since 1.0
  */
 abstract class BaseFile extends BaseObject
